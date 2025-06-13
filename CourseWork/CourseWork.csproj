@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{824B96A7-CAA4-43FD-92E6-CB53EDA0C289}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CourseWork</RootNamespace>
+    <AssemblyName>CourseWork</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>5494355DE7DAB17F3D1B7C14FCB2CB5F613629A0</ManifestCertificateThumbprint>
+    <ManifestKeyFile>CourseWork_2_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Documents and Settings\iamai\Рабочий стол\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>CourseWork.exe</ProductName>
+    <PublisherName>iamai</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyProperties.Designer.cs">
+      <DependentUpon>AssemblyProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblySelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblySelect.Designer.cs">
+      <DependentUpon>AssemblySelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartProperties.Designer.cs">
+      <DependentUpon>PartProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartSelect.Designer.cs">
+      <DependentUpon>PartSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupProperties.Designer.cs">
+      <DependentUpon>GroupProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupSelect.Designer.cs">
+      <DependentUpon>GroupSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DraughtProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DraughtProperties.Designer.cs">
+      <DependentUpon>DraughtProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DraughtSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DraughtSelect.Designer.cs">
+      <DependentUpon>DraughtSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="i.cs" />
+    <Compile Include="Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AssemblyProperties.resx">
+      <DependentUpon>AssemblyProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssemblySelect.resx">
+      <DependentUpon>AssemblySelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartProperties.resx">
+      <DependentUpon>PartProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartSelect.resx">
+      <DependentUpon>PartSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupProperties.resx">
+      <DependentUpon>GroupProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupSelect.resx">
+      <DependentUpon>GroupSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DraughtProperties.resx">
+      <DependentUpon>DraughtProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DraughtSelect.resx">
+      <DependentUpon>DraughtSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\assembly.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\draugh.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\group.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\part.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\main.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pass.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
